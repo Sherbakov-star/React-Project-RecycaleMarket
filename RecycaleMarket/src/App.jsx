@@ -7,6 +7,8 @@ import User from "./User.jsx";
 import UserGreeting from "./UserGreeting.jsx";
 import ProductList from "./ProductList.jsx";
 import ProfilePicture from "./ProfilePicture.jsx";
+import MyComponent from "./MyComponent.jsx";
+import Counter from "./Counter.jsx";
 // function App() {
 //   return(
 //     <>
@@ -87,10 +89,26 @@ import ProfilePicture from "./ProfilePicture.jsx";
 //   );
 // }
 
+// function App() {
+//   return(
+//     <>
+//       <ProfilePicture/>
+//     </>
+//   );
+// }
+
+// function App() {
+//   return(
+//     <>
+//       <MyComponent/>
+//     </>
+//   );
+// }
+
 function App() {
   return(
     <>
-      <ProfilePicture/>
+      <Counter/>
     </>
   );
 }
